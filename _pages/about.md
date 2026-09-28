@@ -30,10 +30,10 @@ My research interests lie in **generative modeling**, **reasoning**, and **repre
 
 - **LLM and VLM reasoning**: making reasoning in language and vision-language models more efficient and reliable, for example through model merging for long-to-short reasoning
 - **Latent alignment**: aligning representations across modalities and latent spaces with flow-based objectives
-- **Image and video generation and processing**: efficient generative models built on diffusion, flow matching, energy-based and autogressive models
+- **Image and video generation and processing**: efficient generative models built on diffusion, flow matching, energy-based and autoregressive models
 - **Visual world models**: generative models that learn how visual scenes evolve, for prediction, simulation and planning
 - **Medical Imaging**: Bayesian posterior sampling with diffusion and flow priors for image and video restoration, segmentation, reconstruction and accelerated MRI
-- **Statistical Models**: regresson, Bayesian inference and causal inference
+- **Statistical Models**: regression, Bayesian inference and causal inference
 
 Before UVA, I received an M.S. in Statistics and Data Science from [Northwestern University] and a B.Sc. in Applied Mathematics with First Class Honours from the [University of Liverpool], and worked as a full-time researcher at the University of Pittsburgh Medical Center (UPMC).
 

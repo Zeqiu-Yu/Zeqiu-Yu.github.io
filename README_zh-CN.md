@@ -9,9 +9,8 @@ _这是我个人学术主页的源代码，基于 [al-folio](https://github.com/
 
 ## 功能
 
-- 简洁的学术主页布局：首页有个人简介、新闻和代表性论文，另有完整的论文页和 CV 页
+- 简洁的学术主页布局：首页有个人简介、新闻和代表性论文，另有完整的论文页
 - 论文列表由一个 BibTeX 文件自动生成（[Jekyll Scholar](https://github.com/inukshuk/jekyll-scholar)），带摘要、DOI 和 arXiv 按钮以及会议标签
-- CV 页由 YAML 文件（`_data/cv.yml`）生成
 - 支持浅色和暗色模式、站内搜索，适配手机
 - 自动部署：每次 push 到 `main` 都会自动重新构建并发布
 
@@ -25,7 +24,7 @@ _这是我个人学术主页的源代码，基于 [al-folio](https://github.com/
 ├── _bibliography
 |   └── papers.bib                 # 全部论文（BibTeX）；selected = {true} 的论文会显示在首页
 ├── _data
-|   ├── cv.yml                     # CV 页的内容（RenderCV 格式）
+|   ├── cv.yml                     # CV 数据（RenderCV 格式）；CV 页已删除，目前不在网站上显示
 |   ├── socials.yml                # 邮箱、Google Scholar、GitHub、LinkedIn
 |   ├── venues.yml                 # 会议标签的颜色（NeurIPS、MICCAI、SPIE 等）
 |   ├── coauthors.yml              # 可选：给合作者名字加链接
@@ -36,7 +35,6 @@ _这是我个人学术主页的源代码，基于 [al-folio](https://github.com/
 ├── _pages
 |   ├── about.md                   # 首页：简介、研究方向、新闻、代表性论文
 |   ├── publications.md            # 论文页
-|   ├── cv.md                      # CV 页
 |   ├── news.md                    # 新闻汇总页
 |   └── 404.md                     # 404 页面
 ├── _sass
@@ -63,7 +61,7 @@ _这是我个人学术主页的源代码，基于 [al-folio](https://github.com/
 
 ```mermaid
 flowchart LR
-    A["内容<br/>_pages · _news · papers.bib · cv.yml"] --> B["git push 到 main"]
+    A["内容<br/>_pages · _news · papers.bib"] --> B["git push 到 main"]
     B --> C["GitHub Actions<br/>Jekyll 构建 + PurgeCSS"]
     G["al-folio 插件<br/>布局 · 样式 · 功能"] --> C
     C --> D["gh-pages 分支<br/>静态网页"]
@@ -86,7 +84,6 @@ flowchart LR
 | 头像 | `assets/img/prof_pic.jpg`（直接替换同名文件） |
 | 新闻 | 在 `_news/` 里新建一个 Markdown 文件，照着现有文件的格式写 |
 | 论文 | `_bibliography/papers.bib` |
-| CV 页 | `_data/cv.yml` |
 | 邮箱和各类主页链接 | `_data/socials.yml` |
 | 名字、网站描述、关键词 | `_config.yml` |
 | 主题色 | `_sass/_themes.scss` 里的 `#1c5fa8`（al-folio 默认是紫色 `#b509ac`） |

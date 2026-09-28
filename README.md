@@ -9,9 +9,8 @@ _This is the source code of my academic homepage. It is built on [al-folio](http
 
 ## Features
 
-- A clean academic layout: a home page with bio, news, and selected publications, a full publications page, and a CV page
+- A clean academic layout: a home page with bio, news, and selected publications, plus a full publications page
 - Publications generated from one BibTeX file by [Jekyll Scholar](https://github.com/inukshuk/jekyll-scholar), with abstracts, DOI and arXiv buttons, and venue badges
-- A CV page generated from YAML (`_data/cv.yml`)
 - Light and dark mode, site search, and a mobile-friendly layout
 - Automatic deployment: every push to `main` rebuilds and republishes the site
 
@@ -25,7 +24,7 @@ _This is the source code of my academic homepage. It is built on [al-folio](http
 ├── _bibliography
 |   └── papers.bib                 # all publications (BibTeX); selected = {true} shows a paper on the home page
 ├── _data
-|   ├── cv.yml                     # content of the CV page (RenderCV format)
+|   ├── cv.yml                     # CV data (RenderCV format); not shown on the site since the CV page was removed
 |   ├── socials.yml                # email, Google Scholar, GitHub, LinkedIn
 |   ├── venues.yml                 # colors of the venue badges (NeurIPS, MICCAI, SPIE, ...)
 |   ├── coauthors.yml              # optional links for co-author names
@@ -36,7 +35,6 @@ _This is the source code of my academic homepage. It is built on [al-folio](http
 ├── _pages
 |   ├── about.md                   # home page: bio, research interests, news, selected publications
 |   ├── publications.md            # publications page
-|   ├── cv.md                      # CV page
 |   ├── news.md                    # news archive
 |   └── 404.md                     # page-not-found page
 ├── _sass
@@ -63,7 +61,7 @@ Layouts, styles, and most features come from versioned al-folio gems (`al_folio_
 
 ```mermaid
 flowchart LR
-    A["Content<br/>_pages · _news · papers.bib · cv.yml"] --> B["git push to main"]
+    A["Content<br/>_pages · _news · papers.bib"] --> B["git push to main"]
     B --> C["GitHub Actions<br/>Jekyll build + PurgeCSS"]
     G["al-folio gems<br/>layouts · styles · plugins"] --> C
     C --> D["gh-pages branch<br/>static HTML"]
@@ -86,7 +84,6 @@ Edit a file, then commit and push to `main`. The site updates a few minutes late
 | Profile photo | `assets/img/prof_pic.jpg` (replace the file) |
 | News | add a Markdown file to `_news/`, following the existing ones |
 | Publications | `_bibliography/papers.bib` |
-| CV page | `_data/cv.yml` |
 | Email and profile links | `_data/socials.yml` |
 | Name, site description, keywords | `_config.yml` |
 | Accent color | `#1c5fa8` in `_sass/_themes.scss` (the al-folio default is `#b509ac`) |

@@ -20,5 +20,5 @@ vendor
 __pycache__/
 *.pyc
 
-# files the Claude desktop app saves into this folder
-Claude outputs/
+# local reference images and screenshots (not published)
+ref_img/

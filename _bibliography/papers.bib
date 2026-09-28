@@ -1,0 +1,103 @@
+---
+---
+
+% Publications are listed newest first; within a year they appear in the order below.
+% selected = {true} puts a paper in "selected publications" on the home page.
+% Useful extra fields: pdf, code, arxiv, html, website, slides, poster, preview (image in assets/img/publication_preview/).
+
+@inproceedings{yu2026lhm,
+  abbr      = {NeurIPS},
+  title     = {Low-Rank Hierarchical Merging for Efficient Long-to-Short Reasoning},
+  author    = {Yu, Z. and Zhang, X. and Zhao, W. and Wang, S.},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2026},
+  abstract  = {Low-Rank Hierarchical Merging (LHM) is a training-free, plug-and-play framework that combines the reasoning ability of long chain-of-thought models with the concise generation of their base LLMs through layer-adaptive parameter merging. Merging coefficients come from a Layer Second-Order Sensitivity (LSOS) index, built from task-data-free Hessian trace estimates and task-vector norms, together with a dual-constraint coefficient mapping that protects reasoning-critical layers. On the 1.5B Qwen setting, LHM reaches 48.8% average accuracy across six math benchmarks, 3.2 points above ORCA-AIM, while shortening the R1 model's responses by 59.7%; the gains carry over to Llama and Mistral model pairs with no added inference latency.},
+  selected  = {true}
+}
+
+@inproceedings{yuan2026flowalign,
+  abbr       = {NeurIPS},
+  title      = {Flow-Guided Target-Space Alignment via Path Consistency},
+  author     = {Yuan*, R. and Yu*, Z. and Gao, W. and Chen, W. and Tang, X. and Tang, L.},
+  booktitle  = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year       = {2026},
+  annotation = {* Equal contribution},
+  abstract   = {FlowAlign is a two-stage framework for fixed-target multimodal alignment. It first learns source-conditioned flow fields from paired source and target representations, then reuses the frozen field as a differentiable path-consistency supervisor for mapping new source samples. We derive endpoint-error bounds that tie mapping accuracy to the consistency loss and the field residual. FlowAlign outperforms baselines such as Seurat v5, GLUE, and GENOT on single-cell multi-omics (PBMC/BMMC) and ranks first on DINOv3-to-SigLIP2 image-text alignment (CUBICC).},
+  selected   = {true}
+}
+
+@misc{yu2026climbflow,
+  abbr     = {Under Review},
+  title    = {CLIMB-Flow: Coupled Linear Inverse Posterior Sampling via Multiscale-Based Flow},
+  author   = {Yu, Z. and Yuan, R. and Chand, J. R. and Murtaza, S. and Jacob, M.},
+  year     = {2026},
+  abstract = {CLIMB-Flow is a training-free stochastic solver for linear inverse problems with cascaded pixel-space flow models. It samples an exact stage-wise Bayesian posterior over coupled clean and noise endpoints using split Gibbs-Langevin dynamics with a measurement-aware conjugate-gradient preconditioner, and proceeds coarse-to-fine while keeping the original linear observation model. Experiments cover inpainting, deblurring, 4x super-resolution, and 8x accelerated MRI on ImageNet-256, AFHQ-512, and fastMRI.},
+  selected = {true}
+}
+
+@inproceedings{yuan2026miccai,
+  abbr      = {MICCAI},
+  title     = {Learning Where to Look: Pathologist-Inspired Multi-field-of-View Evidence Retrieval for Cell Type Classification in H\&E},
+  author    = {Yuan, R. and Zhao, C. and Liu, T. and Wang, Q. and Yu, Z. and Tang, L. and Huang, H. and Chen, W.},
+  booktitle = {Medical Image Computing and Computer Assisted Intervention (MICCAI)},
+  publisher = {Springer},
+  year      = {2026}
+}
+
+@inproceedings{yu2024knee,
+  abbr       = {SPIE},
+  title      = {3D spatial and channel reconstruction for large image patch based segmentation of knee anatomical structures on MRI},
+  author     = {Yu, Z. and Zhao, X. and Singh, J. and Wang, J. and Yu, T. and Barot, D. and Pu, J.},
+  booktitle  = {Medical Imaging 2024: Image Processing, Proc. SPIE 12926},
+  year       = {2024},
+  doi        = {10.1117/12.3006799},
+  award_name = {Oral},
+  award      = {Oral presentation at SPIE Medical Imaging 2024.},
+  abstract   = {We introduce a 3D spatial-and-channel reconstruction module that suppresses redundant features in nnU-Net, enabling larger volumetric input patches for segmenting knee anatomical structures on MRI. On 183 radiologist-annotated knee MRI scans covering nine structures, it raises mean Dice from 0.811 to 0.823 at the same patch size with fewer parameters, and reaches 0.825 with larger patches.},
+  selected   = {true}
+}
+
+@article{yu2023mpunet,
+  abbr    = {arXiv},
+  title   = {3D Medical Image Segmentation based on multi-scale MPU-Net},
+  author  = {Yu, Z. and Han, S.},
+  journal = {arXiv preprint arXiv:2307.05799},
+  year    = {2023},
+  arxiv   = {2307.05799}
+}
+
+@article{pang2022morphology2,
+  abbr    = {ApJ},
+  title   = {3D Morphology of Open Clusters in the Solar Neighborhood with Gaia EDR 3. II. Hierarchical Star Formation Revealed by Spatial and Kinematic Substructures},
+  author  = {Pang, X. and Tang, S.-Y. and Li, Y. and Yu, Z. and Wang, L. and Li, J. and Li, Y. and Wang, Y. and Wang, Y. and Zhang, T. and Pasquato, M. and Kouwenhoven, M. B. N.},
+  journal = {The Astrophysical Journal},
+  volume  = {931},
+  number  = {2},
+  pages   = {156},
+  year    = {2022},
+  doi     = {10.3847/1538-4357/ac674e}
+}
+
+@article{pang2021vela,
+  abbr    = {ApJ},
+  title   = {Disruption of Hierarchical Clustering in the Vela OB2 Complex and the Cluster Pair Collinder 135 and UBC 7 with Gaia EDR3: Evidence of Supernova Quenching},
+  author  = {Pang, X. and Yu, Z. and Tang, S.-Y. and Hong, J. and Yuan, Z. and Pasquato, M. and Kouwenhoven, M. B. N.},
+  journal = {The Astrophysical Journal},
+  volume  = {923},
+  number  = {1},
+  pages   = {20},
+  year    = {2021},
+  doi     = {10.3847/1538-4357/ac2838}
+}
+
+@article{pang2021morphology,
+  abbr    = {ApJ},
+  title   = {3D Morphology of Open Clusters in the Solar Neighborhood with Gaia EDR 3: Its Relation to Cluster Dynamics},
+  author  = {Pang, X. and Li, Y. and Yu, Z. and Tang, S.-Y. and Dinnbier, F. and Kroupa, P. and Pasquato, M. and Kouwenhoven, M. B. N.},
+  journal = {The Astrophysical Journal},
+  volume  = {912},
+  number  = {2},
+  pages   = {162},
+  year    = {2021},
+  doi     = {10.3847/1538-4357/abeaac}
+}

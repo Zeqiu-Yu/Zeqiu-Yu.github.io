@@ -1,0 +1,7 @@
+# Co-author links: key = last name in lowercase, firstname = the spellings used in papers.bib.
+# Authors listed here become clickable in the publication list. Example:
+#
+# "song":
+#   - firstname: ["Yang", "Y."]
+#     url: https://yang-song.net/
+{}

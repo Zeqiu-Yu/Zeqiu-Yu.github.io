@@ -1,0 +1,29 @@
+# Badge colors for the `abbr` field in _bibliography/papers.bib (e.g. abbr = {NeurIPS}).
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#6a3fb0"
+"ICML":
+  url: https://icml.cc/
+  color: "#1f5fa8"
+"ICLR":
+  url: https://iclr.cc/
+  color: "#2f7d4b"
+"CVPR":
+  url: https://cvpr.thecvf.com/
+  color: "#1f4e79"
+"ICASSP":
+  color: "#00629b"
+"MICCAI":
+  url: https://conferences.miccai.org/
+  color: "#0f7c7c"
+"SPIE":
+  url: https://spie.org/
+  color: "#b0582a"
+"ApJ":
+  url: https://iopscience.iop.org/journal/0004-637X
+  color: "#4a5a70"
+"arXiv":
+  url: https://arxiv.org/
+  color: "#b31b1b"
+"Under Review":
+  color: "#6c757d"

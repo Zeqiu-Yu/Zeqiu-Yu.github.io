@@ -1,0 +1,154 @@
+cv:
+  name: Zeqiu (Zach) Yu
+  label: Ph.D. Candidate in Computer Engineering, University of Virginia
+  email: rqx6rs@virginia.edu
+  website: https://zeqiu-yu.github.io
+  summary: Ph.D. candidate working on generative models (diffusion, flow matching, energy-based models) and statistical machine learning, with applications to inverse problems, multimodal alignment, efficient LLM reasoning, and medical imaging.
+
+  social_networks:
+    - network: GitHub
+      username: Zeqiu-Yu
+    - network: LinkedIn
+      username: zeqiu-yu-ba5776250
+    - network: Google Scholar
+      username: 4tdm7LsAAAAJ
+
+  address:
+    city: Charlottesville
+    region: VA
+
+  sections:
+    Education:
+      - institution: University of Virginia
+        area: Computer Engineering
+        studyType: Ph.D. Candidate
+        start_date: 2024-08
+        highlights:
+          - "Advisor: Prof. Mathews Jacob (IEEE Fellow)"
+
+      - institution: Northwestern University
+        area: Statistics and Data Science
+        studyType: M.S.
+        start_date: 2022-09
+        end_date: 2024-04
+
+      - institution: University of Liverpool
+        area: Applied Mathematics
+        studyType: B.Sc., First Class Honours
+        start_date: 2018-09
+        end_date: 2022-07
+
+    Experience:
+      - company: University of Pittsburgh Medical Center (UPMC)
+        position: Full-time Researcher
+        location: Pittsburgh, PA
+        start_date: 2023-04
+        end_date: 2024-05
+        highlights:
+          - Developed MS-SCConv, a 3D spatial-and-channel reconstruction module for nnU-Net, raising mean Dice on knee MRI from 0.811 to 0.823 with fewer parameters (SPIE Medical Imaging 2024, oral).
+          - Fine-tuned SAM and benchmarked UNet++ and ViT models for segmenting knee structures on MRI.
+          - Built Transit, a bidirectional Transformer for lung cancer prediction and survival analysis from CT (NLST, PLuSS), improving on previous models by about 5% on average.
+          - Predicted length of stay and mortality after lung transplant with Cox proportional hazards and deep learning models on multimodal clinical data.
+          - Studied 3D CycleGAN-based image harmonization and class activation mapping for locating critical slices in emphysema diagnosis.
+
+      - company: University of Liverpool
+        position: Undergraduate Researcher
+        start_date: 2020-05
+        end_date: 2022-06
+        highlights:
+          - Co-developed StarGo, a self-organizing-map pipeline that recovers hierarchical substructures from 5D spatial-kinematic Gaia data; scaled it to 85 stellar systems and identified 29 hierarchical groups, including 10 previously uncatalogued structures.
+          - Implemented Bayesian parallax inversion with Monte Carlo uncertainty propagation to reconstruct reliable 3D cluster structures.
+          - Contributed to three papers in The Astrophysical Journal.
+
+    Projects:
+      - name: Low-Rank Hierarchical Merging for Efficient Long-to-Short Reasoning
+        start_date: 2025-12
+        end_date: 2026-08
+        summary: Training-free, layer-adaptive merging of long chain-of-thought models with base LLMs, guided by Hessian-based layer sensitivity. NeurIPS 2026.
+        highlights:
+          - 48.8% average accuracy on six math benchmarks (Qwen 1.5B), 3.2 points above ORCA-AIM, with 59.7% shorter responses.
+          - Generalizes to Llama and Mistral model pairs; keeps 96.8% of R1's HumanEval accuracy with 62% shorter responses.
+
+      - name: "CLIMB-Flow: Coupled Bayesian Posterior Sampling via Multiscale Flow Models"
+        date: "2026"
+        summary: Training-free posterior sampler for linear inverse problems with cascaded pixel-space flow models, using split Gibbs-Langevin dynamics with conjugate-gradient preconditioning.
+        highlights:
+          - Proved a generalized Tweedie identity for linear-Gaussian flow interpolants.
+          - Best LPIPS on 3 of 5 ImageNet tasks; 28.10 dB PSNR and 0.907 SSIM on 8x accelerated fastMRI.
+
+      - name: "FlowAlign: Flow-Guided Target-Space Alignment via Path Consistency"
+        start_date: 2025-10
+        end_date: 2026-05
+        summary: Two-stage multimodal alignment that reuses a frozen conditional flow field as a path-consistency supervisor. NeurIPS 2026 (co-first author).
+        highlights:
+          - Best LTA, NMI, and ARI on the PBMC and BMMC single-cell benchmarks; first on all reported metrics for DINOv3-to-SigLIP2 image-text alignment (CUBICC).
+          - As a plug-in PeakVI-to-scVI regularizer, reduced FOSCTTM from 0.548 to 0.068.
+
+      - name: Variational Diffusion Recovery with Multi-scale Energy Models (VDRME)
+        date: "2025"
+        summary: Optimal-transport (JKO) view of multiscale diffusion recovery; each proximal step is amortized by a conditional generator for few-step energy-based generation.
+        highlights:
+          - FID 6.90 on CIFAR-10 with 8 steps and 4.62 on class-conditional ImageNet-256 with 4 steps, without classifier guidance or distillation.
+
+      - name: Uni-Pose
+        date: "2025"
+        summary: Three-stage pose estimation framework that aligns FLUX.1 Kontext latents with a GroupPose-based sparse keypoint decoder for human and animal poses.
+        highlights:
+          - Outperformed the re-implemented GroupPose baseline with strong cross-dataset and cross-species generalization (COCO, MPII, AP-10K).
+
+    Publications:
+      - title: Low-Rank Hierarchical Merging for Efficient Long-to-Short Reasoning
+        publisher: NeurIPS 2026
+        releaseDate: "2026"
+        summary: "**Z. Yu**, X. Zhang, W. Zhao, S. Wang"
+      - title: Flow-Guided Target-Space Alignment via Path Consistency
+        publisher: NeurIPS 2026
+        releaseDate: "2026"
+        summary: "R. Yuan\\*, **Z. Yu\\***, W. Gao, W. Chen, X. Tang, L. Tang (\\* equal contribution)"
+      - title: "Learning Where to Look: Pathologist-Inspired Multi-field-of-View Evidence Retrieval for Cell Type Classification in H&E"
+        publisher: MICCAI 2026
+        releaseDate: "2026"
+        summary: "R. Yuan, C. Zhao, T. Liu, Q. Wang, **Z. Yu**, L. Tang, H. Huang, W. Chen"
+      - title: "CLIMB-Flow: Coupled Linear Inverse Posterior Sampling via Multiscale-Based Flow"
+        publisher: Under review
+        releaseDate: "2026"
+        summary: "**Z. Yu**, R. Yuan, J. R. Chand, S. Murtaza, M. Jacob"
+      - title: 3D spatial and channel reconstruction for large image patch based segmentation of knee anatomical structures on MRI
+        publisher: SPIE Medical Imaging 2024 (Oral)
+        releaseDate: "2024"
+        url: https://doi.org/10.1117/12.3006799
+        summary: "**Z. Yu**, X. Zhao, J. Singh, J. Wang, T. Yu, D. Barot, J. Pu"
+      - title: 3D Medical Image Segmentation based on multi-scale MPU-Net
+        publisher: arXiv:2307.05799
+        releaseDate: "2023"
+        url: https://arxiv.org/abs/2307.05799
+        summary: "**Z. Yu**, S. Han"
+      - title: "3D Morphology of Open Clusters in the Solar Neighborhood with Gaia EDR 3. II. Hierarchical Star Formation Revealed by Spatial and Kinematic Substructures"
+        publisher: The Astrophysical Journal, 931(2), 156
+        releaseDate: "2022"
+        url: https://doi.org/10.3847/1538-4357/ac674e
+        summary: "X. Pang, S.-Y. Tang, Y. Li, **Z. Yu**, et al."
+      - title: "Disruption of Hierarchical Clustering in the Vela OB2 Complex and the Cluster Pair Collinder 135 and UBC 7 with Gaia EDR3: Evidence of Supernova Quenching"
+        publisher: The Astrophysical Journal, 923(1), 20
+        releaseDate: "2021"
+        url: https://doi.org/10.3847/1538-4357/ac2838
+        summary: "X. Pang, **Z. Yu**, S.-Y. Tang, J. Hong, Z. Yuan, M. Pasquato, M. B. N. Kouwenhoven"
+      - title: "3D Morphology of Open Clusters in the Solar Neighborhood with Gaia EDR 3: Its Relation to Cluster Dynamics"
+        publisher: The Astrophysical Journal, 912(2), 162
+        releaseDate: "2021"
+        url: https://doi.org/10.3847/1538-4357/abeaac
+        summary: "X. Pang, Y. Li, **Z. Yu**, S.-Y. Tang, F. Dinnbier, P. Kroupa, M. Pasquato, M. B. N. Kouwenhoven"
+
+    Teaching and Mentoring:
+      - bullet: "Teaching Assistant, STAT 390: Data Science Project, Northwestern University (Mar–Jun 2023)"
+      - bullet: "Supervised student: Tianhao Liu (Computer Science, University of Virginia)"
+      - bullet: "Astronomy project mentor: machine learning tutorials for lab members (Jun–Sep 2021)"
+
+    Service:
+      - bullet: "Reviewer: ACM Multimedia (ACM MM), Pattern Recognition"
+
+    Skills:
+      - name: Programming
+        keywords: [Python, R, MATLAB, Java, SQL, LaTeX]
+      - name: ML and Tools
+        keywords: [PyTorch, Hugging Face Transformers, PEFT, CUDA, distributed training, HPC, Weights & Biases, SciPy, OpenCV, SimpleITK, Git]

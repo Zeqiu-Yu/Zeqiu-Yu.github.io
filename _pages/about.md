@@ -35,8 +35,6 @@ My research interests lie in **generative modeling**, **reasoning**, and **repre
 - **Medical Imaging**: Bayesian posterior sampling with diffusion and flow priors for image and video restoration, segmentation, reconstruction and accelerated MRI
 - **Statistical Models**: regresson, Bayesian inference and causal inference
 
-I am also interested in **medical imaging**, which runs through my earlier work on MRI segmentation and CT-based survival analysis.
-
 Before UVA, I received an M.S. in Statistics and Data Science from [Northwestern University] and a B.Sc. in Applied Mathematics with First Class Honours from the [University of Liverpool], and worked as a full-time researcher at the University of Pittsburgh Medical Center (UPMC).
 
 Outside of research, I enjoy **astronomy**, which I also explored as an undergraduate by applying machine learning to Gaia data (three papers in _The Astrophysical Journal_). I also play **basketball** and **tennis**.

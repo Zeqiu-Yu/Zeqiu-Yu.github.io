@@ -208,8 +208,36 @@ html[data-theme-setting="light"] {
   color: var(--global-theme-color);
 }
 
-// Venue badges without a URL (e.g. "Under Review") put their label in a <div>, which otherwise
+// Venue badges without a URL (e.g. "ICASSP") put their label in a <div>, which otherwise
 // renders in the body text color; keep it white like the linked badges.
 .publications ol.bibliography li .abbr abbr.badge > div {
   color: #fff !important;
+}
+
+// Publication previews: give the image column a third of the row (al-folio default: 1/6) so paper
+// figures stay readable, and keep venue badges compact; when a paper has a preview image, the badge
+// sits on its top-left corner.
+@media (min-width: 576px) {
+  .publications ol.bibliography li .row > .col-sm-2.abbr {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+.publications ol.bibliography li .abbr abbr.badge {
+  // `w-100` is an !important utility in a cascade layer, so cap the width instead of overriding it
+  max-width: max-content;
+  padding: 0.25rem 0.6rem;
+}
+
+.publications ol.bibliography li .abbr:has(.preview) {
+  position: relative;
+}
+
+.publications ol.bibliography li .abbr:has(.preview) abbr.badge {
+  position: absolute;
+  top: 0.45rem;
+  left: calc(15px + 0.45rem);
+  z-index: 2;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }

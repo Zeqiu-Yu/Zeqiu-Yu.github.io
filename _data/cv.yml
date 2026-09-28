@@ -3,7 +3,7 @@ cv:
   label: Ph.D. Candidate in Computer Engineering, University of Virginia
   email: rqx6rs@virginia.edu
   website: https://zeqiu-yu.github.io
-  summary: Ph.D. candidate working on generative models (diffusion, flow matching, energy-based models) and statistical machine learning, with applications to inverse problems, multimodal alignment, efficient LLM reasoning, and medical imaging.
+  summary: Ph.D. candidate working on generative modeling, reasoning, and representation learning, including LLM and VLM reasoning, inverse problems, latent alignment, image and video generation, and visual world models, with a further interest in medical imaging.
 
   social_networks:
     - network: GitHub
@@ -105,12 +105,8 @@ cv:
         publisher: NeurIPS 2026
         releaseDate: "2026"
         summary: "R. Yuan\\*, **Z. Yu\\***, W. Gao, W. Chen, X. Tang, L. Tang (\\* equal contribution)"
-      - title: "Learning Where to Look: Pathologist-Inspired Multi-field-of-View Evidence Retrieval for Cell Type Classification in H&E"
-        publisher: MICCAI 2026
-        releaseDate: "2026"
-        summary: "R. Yuan, C. Zhao, T. Liu, Q. Wang, **Z. Yu**, L. Tang, H. Huang, W. Chen"
       - title: "CLIMB-Flow: Coupled Linear Inverse Posterior Sampling via Multiscale-Based Flow"
-        publisher: Under review
+        publisher: arXiv preprint
         releaseDate: "2026"
         summary: "**Z. Yu**, R. Yuan, J. R. Chand, S. Murtaza, M. Jacob"
       - title: 3D spatial and channel reconstruction for large image patch based segmentation of knee anatomical structures on MRI

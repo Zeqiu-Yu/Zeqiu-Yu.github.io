@@ -9,11 +9,11 @@ last_name: Yu
 contact_note: >
   Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Zeqiu (Zach) Yu is a Ph.D. candidate in Computer Engineering at the University of Virginia, working on generative models (diffusion, flow matching, energy-based models), inverse problems, multimodal alignment, and efficient LLM reasoning.
+  Zeqiu (Zach) Yu is a Ph.D. candidate in Computer Engineering at the University of Virginia, working on generative modeling, reasoning, and representation learning: LLM and VLM reasoning, inverse problems, latent alignment, image and video generation, and visual world models.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Zeqiu Yu, Zach Yu, University of Virginia, generative models, diffusion models, flow matching, energy-based models, inverse problems, posterior sampling, model merging, LLM reasoning, multimodal learning, medical imaging # add your own keywords or leave empty
+keywords: Zeqiu Yu, Zach Yu, University of Virginia, generative modeling, reasoning, representation learning, LLM reasoning, VLM reasoning, inverse problems, latent alignment, diffusion models, flow matching, image generation, video generation, visual world models, medical imaging # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.

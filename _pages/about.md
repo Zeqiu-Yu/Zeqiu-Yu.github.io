@@ -24,14 +24,18 @@ latest_posts:
   enabled: false
 ---
 
-I am a Ph.D. candidate in Computer Engineering at the [University of Virginia](https://engineering.virginia.edu/), advised by [Prof. Mathews Jacob](https://engineering.virginia.edu/faculty/mathews-jacob). My research sits at the intersection of **generative modeling** and **statistical machine learning**: I develop principled methods built on diffusion models, flow matching, and energy-based models, and use them to solve inverse problems, align representations across modalities, and make large language models reason more efficiently.
+I am a Ph.D. candidate in Computer Engineering at the [University of Virginia](https://engineering.virginia.edu/), advised by [Prof. Mathews Jacob](https://engineering.virginia.edu/faculty/mathews-jacob).
 
-Before UVA, I received an M.S. in Statistics and Data Science from [Northwestern University](https://www.northwestern.edu/) and a B.Sc. in Applied Mathematics with First Class Honours from the [University of Liverpool](https://www.liverpool.ac.uk/). I also worked as a researcher at the University of Pittsburgh Medical Center (UPMC) on medical image segmentation and survival analysis, and as an undergraduate I applied machine learning to Gaia astrometric data, contributing to three papers in _The Astrophysical Journal_.
+My research interests lie in **generative modeling**, **reasoning**, and **representation learning**. I am especially interested in using generative models not only to synthesize data, but also as priors and representations that support inference and reasoning. My current directions include:
 
-**Research interests**
+- **LLM and VLM reasoning**: making reasoning in language and vision-language models more efficient and reliable, for example through model merging for long-to-short reasoning
+- **Inverse problems**: Bayesian posterior sampling with diffusion and flow priors for image restoration and accelerated MRI
+- **Latent alignment**: aligning representations across modalities and latent spaces with flow-based objectives
+- **Image and video generation and processing**: efficient generative models built on diffusion, flow matching, and energy-based models
+- **Visual world models**: generative models that learn how visual scenes evolve, for prediction and planning
 
-- **Generative models**: diffusion models, flow matching, energy-based models, optimal transport
-- **Inverse problems**: Bayesian posterior sampling with generative priors, computational MRI
-- **Efficient LLM reasoning**: model merging, long-to-short chain-of-thought compression
-- **Multimodal learning**: representation alignment across vision, language, and single-cell data
-- **Medical image analysis**: segmentation and outcome prediction
+I am also interested in **medical imaging**, which runs through my earlier work on MRI segmentation and CT-based survival analysis.
+
+Before UVA, I received an M.S. in Statistics and Data Science from [Northwestern University](https://www.northwestern.edu/) and a B.Sc. in Applied Mathematics with First Class Honours from the [University of Liverpool](https://www.liverpool.ac.uk/), and worked as a full-time researcher at the University of Pittsburgh Medical Center (UPMC).
+
+Outside of research, I enjoy **astronomy**, which I also explored as an undergraduate by applying machine learning to Gaia data (three papers in _The Astrophysical Journal_). I also play **basketball** and **tennis**.

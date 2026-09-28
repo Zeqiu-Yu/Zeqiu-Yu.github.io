@@ -40,9 +40,9 @@ _This is the source code of my academic homepage. It is built on [al-folio](http
 |   ├── news.md                    # news archive
 |   └── 404.md                     # page-not-found page
 ├── _sass
-|   └── _themes.scss               # local override: accent color (#1c5fa8) and badge label color
+|   └── _themes.scss               # local override: accent color (#1c5fa8), venue badges, wider paper thumbnails
 ├── assets
-|   ├── img                        # profile photo (prof_pic.jpg) and favicon
+|   ├── img                        # profile photo, favicon, and paper figures (publication_preview/)
 |   ├── json                       # JSON Resume placeholder (not used)
 |   └── rendercv                   # RenderCV settings, for an optional PDF version of the CV
 ├── bin                            # al-folio helper scripts

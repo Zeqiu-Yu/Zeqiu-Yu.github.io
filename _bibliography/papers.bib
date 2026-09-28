@@ -11,6 +11,7 @@
   author    = {Yu, Z. and Zhang, X. and Zhao, W. and Wang, S.},
   booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
   year      = {2026},
+  preview   = {lhm.jpg},
   abstract  = {Low-Rank Hierarchical Merging (LHM) is a training-free, plug-and-play framework that combines the reasoning ability of long chain-of-thought models with the concise generation of their base LLMs through layer-adaptive parameter merging. Merging coefficients come from a Layer Second-Order Sensitivity (LSOS) index, built from task-data-free Hessian trace estimates and task-vector norms, together with a dual-constraint coefficient mapping that protects reasoning-critical layers. On the 1.5B Qwen setting, LHM reaches 48.8% average accuracy across six math benchmarks, 3.2 points above ORCA-AIM, while shortening the R1 model's responses by 59.7%; the gains carry over to Llama and Mistral model pairs with no added inference latency.},
   selected  = {true}
 }
@@ -21,27 +22,21 @@
   author     = {Yuan*, R. and Yu*, Z. and Gao, W. and Chen, W. and Tang, X. and Tang, L.},
   booktitle  = {Advances in Neural Information Processing Systems (NeurIPS)},
   year       = {2026},
+  preview    = {flowalign.png},
   annotation = {* Equal contribution},
   abstract   = {FlowAlign is a two-stage framework for fixed-target multimodal alignment. It first learns source-conditioned flow fields from paired source and target representations, then reuses the frozen field as a differentiable path-consistency supervisor for mapping new source samples. We derive endpoint-error bounds that tie mapping accuracy to the consistency loss and the field residual. FlowAlign outperforms baselines such as Seurat v5, GLUE, and GENOT on single-cell multi-omics (PBMC/BMMC) and ranks first on DINOv3-to-SigLIP2 image-text alignment (CUBICC).},
   selected   = {true}
 }
 
-@misc{yu2026climbflow,
-  abbr     = {Under Review},
+% Add arxiv = {XXXX.XXXXX} below once the arXiv ID is out to show an arXiv button.
+@article{yu2026climbflow,
+  abbr     = {arXiv},
   title    = {CLIMB-Flow: Coupled Linear Inverse Posterior Sampling via Multiscale-Based Flow},
   author   = {Yu, Z. and Yuan, R. and Chand, J. R. and Murtaza, S. and Jacob, M.},
+  journal  = {arXiv preprint},
   year     = {2026},
   abstract = {CLIMB-Flow is a training-free stochastic solver for linear inverse problems with cascaded pixel-space flow models. It samples an exact stage-wise Bayesian posterior over coupled clean and noise endpoints using split Gibbs-Langevin dynamics with a measurement-aware conjugate-gradient preconditioner, and proceeds coarse-to-fine while keeping the original linear observation model. Experiments cover inpainting, deblurring, 4x super-resolution, and 8x accelerated MRI on ImageNet-256, AFHQ-512, and fastMRI.},
   selected = {true}
-}
-
-@inproceedings{yuan2026miccai,
-  abbr      = {MICCAI},
-  title     = {Learning Where to Look: Pathologist-Inspired Multi-field-of-View Evidence Retrieval for Cell Type Classification in H\&E},
-  author    = {Yuan, R. and Zhao, C. and Liu, T. and Wang, Q. and Yu, Z. and Tang, L. and Huang, H. and Chen, W.},
-  booktitle = {Medical Image Computing and Computer Assisted Intervention (MICCAI)},
-  publisher = {Springer},
-  year      = {2026}
 }
 
 @inproceedings{yu2024knee,
@@ -63,7 +58,9 @@
   author  = {Yu, Z. and Han, S.},
   journal = {arXiv preprint arXiv:2307.05799},
   year    = {2023},
-  arxiv   = {2307.05799}
+  arxiv   = {2307.05799},
+  code    = {https://github.com/Zeqiu-Yu/MP-UNet},
+  preview = {mpunet.jpg}
 }
 
 @article{pang2022morphology2,
@@ -75,7 +72,9 @@
   number  = {2},
   pages   = {156},
   year    = {2022},
-  doi     = {10.3847/1538-4357/ac674e}
+  doi     = {10.3847/1538-4357/ac674e},
+  arxiv   = {2204.06000},
+  preview = {apj2022-morphology2.jpg}
 }
 
 @article{pang2021vela,
@@ -87,7 +86,9 @@
   number  = {1},
   pages   = {20},
   year    = {2021},
-  doi     = {10.3847/1538-4357/ac2838}
+  doi     = {10.3847/1538-4357/ac2838},
+  arxiv   = {2106.07658},
+  preview = {apj2021-vela.jpg}
 }
 
 @article{pang2021morphology,
@@ -99,5 +100,7 @@
   number  = {2},
   pages   = {162},
   year    = {2021},
-  doi     = {10.3847/1538-4357/abeaac}
+  doi     = {10.3847/1538-4357/abeaac},
+  arxiv   = {2102.10508},
+  preview = {apj2021-morphology.jpg}
 }

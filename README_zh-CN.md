@@ -40,9 +40,9 @@ _这是我个人学术主页的源代码，基于 [al-folio](https://github.com/
 |   ├── news.md                    # 新闻汇总页
 |   └── 404.md                     # 404 页面
 ├── _sass
-|   └── _themes.scss               # 本地覆盖：主题色（#1c5fa8）和会议标签文字颜色
+|   └── _themes.scss               # 本地覆盖：主题色（#1c5fa8）、会议标签样式、加宽的论文配图
 ├── assets
-|   ├── img                        # 头像（prof_pic.jpg）和网站图标
+|   ├── img                        # 头像、网站图标和论文配图（publication_preview/）
 |   ├── json                       # JSON Resume 占位文件（未使用）
 |   └── rendercv                   # RenderCV 设置，用于生成 PDF 版 CV（可选）
 ├── bin                            # al-folio 的辅助脚本

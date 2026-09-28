@@ -105,6 +105,10 @@ cv:
         publisher: NeurIPS 2026
         releaseDate: "2026"
         summary: "R. Yuan\\*, **Z. Yu\\***, W. Gao, W. Chen, X. Tang, L. Tang (\\* equal contribution)"
+      - title: "Learning Where to Look: Pathologist-Inspired Multi-field-of-View Evidence Retrieval for Cell Type Classification in H&E"
+        publisher: MICCAI 2026
+        releaseDate: "2026"
+        summary: "R. Yuan, C. Zhao, T. Liu, Q. Wang, **Z. Yu**, L. Tang, H. Huang, W. Chen"
       - title: "CLIMB-Flow: Coupled Linear Inverse Posterior Sampling via Multiscale-Based Flow"
         publisher: arXiv preprint
         releaseDate: "2026"

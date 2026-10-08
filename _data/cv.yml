@@ -110,9 +110,10 @@ cv:
         releaseDate: "2026"
         summary: "R. Yuan, C. Zhao, T. Liu, Q. Wang, **Z. Yu**, L. Tang, H. Huang, W. Chen"
       - title: "CLIMB-Flow: Coupled Linear Inverse Posterior Sampling via Multiscale-Based Flow"
-        publisher: arXiv preprint
+        publisher: arXiv:2609.33834
         releaseDate: "2026"
-        summary: "**Z. Yu**, R. Yuan, J. R. Chand, S. Murtaza, M. Jacob"
+        url: https://arxiv.org/abs/2609.33834
+        summary: "**Z. Yu**, R. Yuan, M. Jacob"
       - title: 3D spatial and channel reconstruction for large image patch based segmentation of knee anatomical structures on MRI
         publisher: SPIE Medical Imaging 2024 (Oral)
         releaseDate: "2024"
